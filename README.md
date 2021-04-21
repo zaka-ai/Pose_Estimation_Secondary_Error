@@ -5,27 +5,14 @@ The link of the forum question is find [here](https://forums.developer.nvidia.co
 To get the peopleNet model, run the following:
 wget https://api.ngc.nvidia.com/v2/models/nvidia/tlt_peoplenet/versions/pruned_quantized_v2.1/files/resnet34_peoplenet_pruned_int8.etlt
 
+Pose Estimation module is the same as the one [here](https://github.com/NVIDIA-AI-IOT/deepstream_pose_estimation)
+To get the onnx model of pose estimation plz download it from the above github (link of file [here](https://github.com/NVIDIA-AI-IOT/deepstream_pose_estimation/blob/master/pose_estimation.onnx)).
 
 ## DeepStream Human Pose Estimation
 
 Human pose estimation is the computer vision task of estimating the configuration (‘the pose’) of the human body by localizing certain key points on a body within a video or a photo. The following application serves as a reference to deploy custom pose estimation models with DeepStream 5.0 using the [TRTPose](https://github.com/NVIDIA-AI-IOT/trt_pose) project as an example. 
 
 A detailed deep-dive NVIDIA Developer blog is available [here](https://developer.nvidia.com/blog/creating-a-human-pose-estimation-application-with-deepstream-sdk/?ncid=so-link-52952-vt24&sfdcid=EM08#cid=em08_so-link_en-us).
-<!--<img src="images/input.gif" width="300"/> <img src="images/auxillary.png" width="100"/> <img src="images/output.gif" width="300"/>-->
-
-<table>
-  <tr>
-    <td>Input Video Source</td>
-     <td></td>
-     <td>Output Video</td>
-  </tr>
-  <tr>
-    <td valign="top"><img src="images/input.gif"></td>
-    <td valign="center"><img src="images/auxillary.png" width="100"></td>
-    <td valign="top"><img src="images/output.gif"></td>
-  </tr>
- </table>
-
 
 ## Prerequisites
 You will need 
